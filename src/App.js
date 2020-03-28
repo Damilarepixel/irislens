@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TopSectionContainer from './Components/TopSection/TopSectionContainer'
+import MiddleSectionContainer from './Components/MiddleSection/MiddleSectionContainer'
+import BaseSection from './Components/BaseSection/BaseSection'
+
+
+function timeOfDay () {
+  if(new Date().getHours() <= 11) {
+    // day mode (Morning)
+    return 'morning'
+  }else if (new Date().getHours() >= 12 && new Date().getHours() <= 17){
+    // Afternoon (day mode)
+    return 'Afternoon'
+  }else {
+    // night mode
+    return 'night'
+  }
+}
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    <TopSectionContainer/>
+    <MiddleSectionContainer/>
+    <BaseSection />
+  </div>
   );
 }
 
-export default App;
+export {App, timeOfDay};
