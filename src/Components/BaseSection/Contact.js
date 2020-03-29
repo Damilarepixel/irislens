@@ -23,14 +23,14 @@ class Contact extends Component {
         <div className='formContainer formGroup'>
           <form className="contactForm" action="mailto:irislensphotography­@gmail.com" method="post">
             <div className='block'>
-              <input style={{backgroundColor : background, color : textColor}} placeholder='First Name' type='text' name='firstName'></input>
-            <input style={{backgroundColor : background, color : textColor}} placeholder='Last Name' type='text' name='lastName'></input>
+              <input required style={{backgroundColor : background, color : textColor}} placeholder='First Name' type='text' name='firstName'></input>
+            <input required style={{backgroundColor : background, color : textColor}} placeholder='Last Name' type='text' name='lastName'></input>
             </div>
             <div className=''>
-              <input style={{backgroundColor : background, color : textColor}} placeholder='Your Mail' type='email' name='Email'></input>
-            <input style={{backgroundColor : background, color : textColor}} placeholder='Subject' type='text' name='subject'></input>
+              <input required style={{backgroundColor : background, color : textColor}} placeholder='Your Mail' type='email' name='Email'></input>
+            <input required style={{backgroundColor : background, color : textColor}} placeholder='Subject' type='text' name='subject'></input>
             </div>
-            <textarea style={{backgroundColor : background, color : textColor}} placeholder='Your Message ...' name="name">
+            <textarea required style={{backgroundColor : background, color : textColor}} placeholder='Your Message ...' name="name">
             </textarea>
             <button className='mainButton'>Send message</button>
           </form>
