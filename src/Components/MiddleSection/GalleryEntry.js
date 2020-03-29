@@ -16,7 +16,7 @@ class GalleryEntry extends Component {
             sentences fly into your mouth.Far far away, behind the word mountains.
           </p>
         </div>
-        <img src={require('../../images/galleryEntryBg.jpg')} alt='Entry'></img>
+        <img src={'/images/galleryEntryBg.jpg'} alt='Entry'></img>
       </div>
     )
   }

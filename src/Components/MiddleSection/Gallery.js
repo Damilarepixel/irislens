@@ -14,6 +14,7 @@ class Gallery extends Component {
 
   render () {
 const gallery = images.map(img => {
+  
 return  <ImageSetter
   image = {img.image}
   key = {img.image}/>

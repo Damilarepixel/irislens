@@ -4,8 +4,8 @@ import {timeOfDay} from '../../App'
 class AboutMeRightSection extends React.Component {
 
   render () {
-    const image1 = `url(${require('../../images/aboutRight1.jpg')})`
-    const image2 = `url(${require('../../images/aboutRight2.jpg')})`
+    const image1 = `url(${'/images/aboutRight1.jpg'})`
+    const image2 = `url(${'/images/aboutRight2.jpg'})`
     let headerColor = ''
     let descriptionTextColor = ''
     if(timeOfDay() === 'morning') {
