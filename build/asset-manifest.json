@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/iris/static/css/main.ce938bfa.chunk.css",
+    "main.js": "/iris/static/js/main.16c029bb.chunk.js",
+    "main.js.map": "/iris/static/js/main.16c029bb.chunk.js.map",
+    "runtime-main.js": "/iris/static/js/runtime-main.33c5306e.js",
+    "runtime-main.js.map": "/iris/static/js/runtime-main.33c5306e.js.map",
+    "static/js/2.9f568fbd.chunk.js": "/iris/static/js/2.9f568fbd.chunk.js",
+    "static/js/2.9f568fbd.chunk.js.map": "/iris/static/js/2.9f568fbd.chunk.js.map",
+    "index.html": "/iris/index.html",
+    "precache-manifest.274ad619d9063b410b9d19dc698cabeb.js": "/iris/precache-manifest.274ad619d9063b410b9d19dc698cabeb.js",
+    "service-worker.js": "/iris/service-worker.js",
+    "static/css/main.ce938bfa.chunk.css.map": "/iris/static/css/main.ce938bfa.chunk.css.map",
+    "static/js/2.9f568fbd.chunk.js.LICENSE.txt": "/iris/static/js/2.9f568fbd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/iris/static/media/homeBg.0aadeed5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33c5306e.js",
+    "static/js/2.9f568fbd.chunk.js",
+    "static/css/main.ce938bfa.chunk.css",
+    "static/js/main.16c029bb.chunk.js"
+  ]
+}
