@@ -43,21 +43,21 @@ class Footer extends Component {
             <h1 style={{color : headerColor}}>Recent Blogs</h1>
             <div>
               <div className='footerBlogContainer'>
-                <div className='footerblogBg' style={{backgroundImage : `url(${'./gallery/6.jpg'})`}}></div>
+                <div className='footerblogBg' style={{backgroundImage : `url(${'../../gallery/6.jpg'})`}}></div>
                 <div className='footerBlogInfo'>
                   <h4><a style={{color : headerColor}} href='#'>Light Effects And Shadows</a></h4>
                   <small style={{color : textColor}} >16 March, 2020</small>
                 </div>
               </div>
               <div className='footerBlogContainer'>
-                <div className='footerblogBg' style={{backgroundImage : `url(${'./gallery/4.jpg'})`}}></div>
+                <div className='footerblogBg' style={{backgroundImage : `url(${'../../gallery/4.jpg'})`}}></div>
                 <div className='footerBlogInfo'>
                   <h4><a style={{color : headerColor}} href='#'>Don't Snap Your Grandma</a></h4>
                   <small style={{color : textColor}} >16 March, 2020</small>
                 </div>
               </div>
               <div className='footerBlogContainer'>
-                <div className='footerblogBg' style={{backgroundImage : `url(${'./gallery/3.jpg'})`}}></div>
+                <div className='footerblogBg' style={{backgroundImage : `url(${'../../gallery/3.jpg'})`}}></div>
                 <div className='footerBlogInfo'>
                   <h4><a style={{color : headerColor}} href='#'>Who Killed My Dog ?</a></h4>
                   <small style={{color : textColor}} >16 March, 2020</small>
