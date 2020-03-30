@@ -196,7 +196,7 @@ a {
   position: relative;
   width: 100%;
   min-height: 800px;
-  background-image: url('/images/homeBg.jpg');
+  background-image: url('../../images/homeBg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -360,7 +360,7 @@ a {
   grid-template-columns: 6fr 4fr;
 }
 .authorImage {
-  background-image: url('/images/authorImg.jpg');
+  background-image: url('../../images/authorImg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
