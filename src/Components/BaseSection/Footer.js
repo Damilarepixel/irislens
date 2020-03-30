@@ -44,21 +44,21 @@ class Footer extends Component {
             <div>
               <div className='footerBlogContainer'>
                 <div className='footerblogBg' style={{backgroundImage : `url(${'/gallery/6.jpg'})`}}></div>
-                <div>
+                <div className='footerBlogInfo'>
                   <h4><a style={{color : headerColor}} href='#'>Light Effects And Shadows</a></h4>
                   <small style={{color : textColor}} >16 March, 2020</small>
                 </div>
               </div>
               <div className='footerBlogContainer'>
                 <div className='footerblogBg' style={{backgroundImage : `url(${'/gallery/4.jpg'})`}}></div>
-                <div>
+                <div className='footerBlogInfo'>
                   <h4><a style={{color : headerColor}} href='#'>Don't Snap Your Grandma</a></h4>
                   <small style={{color : textColor}} >16 March, 2020</small>
                 </div>
               </div>
               <div className='footerBlogContainer'>
                 <div className='footerblogBg' style={{backgroundImage : `url(${'/gallery/3.jpg'})`}}></div>
-                <div>
+                <div className='footerBlogInfo'>
                   <h4><a style={{color : headerColor}} href='#'>Who Killed My Dog ?</a></h4>
                   <small style={{color : textColor}} >16 March, 2020</small>
                 </div>
@@ -70,12 +70,12 @@ class Footer extends Component {
             <p style={{color : textColor}} className='footerTexts'>123 Dead Man Street, Off Denu Estate, Sweet Coffee Plaza, United States USA 10015.</p>
           <p><span className='icon-phone icon'></span><a style={{color : headerColor}} href='tel:+16823757862'>+1-682-375-7862</a></p>
           <p><span className='icon-mail icon'></span><a style={{color : headerColor}} href='mailto:irislensphotography­@gmail.com'>irislensphotography­@gmail.com</a></p>
-            <p><span className='icon-globe icon'></span><a style={{color : headerColor}} href='#'>www.coffeeplanet.com</a></p>
+            <p><span className='icon-globe icon'></span><a style={{color : headerColor}} href='https://emmaccen.github.io/Emmaccen/'>www.photoplanet.com</a></p>
           </div>
         </footer>
         <center>
           <p style={{color : textColor}} className='descriptionText copyright'>Copyright &copy; {new Date().getFullYear()} All Rights Reserved |
-            This Template Is Made With Love By <a href='#'>Emmanuel</a></p>
+            This Template Is Made With Love By <a href='https://emmaccen.github.io/Emmaccen/'>Emmanuel</a></p>
           </center>
       </div>
     )

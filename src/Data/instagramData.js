@@ -4,8 +4,7 @@ const instaData = [
   {post : '/gallery/3.jpg'},
   {post : '/gallery/7.jpg'},
   {post : '/gallery/6.jpg'},
-  {post : '/gallery/15.jpg'},
-  {post : '/gallery/4.jpg'}
+  {post : '/gallery/15.jpg'}
 ]
 
 export default instaData

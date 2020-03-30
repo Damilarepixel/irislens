@@ -632,6 +632,9 @@ footer {
   background-position: center;
   background-size: cover;
 }
+.footerBlogInfo {
+  width: 50%;
+}
 .footerBlogContainer h4, small {
   margin : 0px 0px 5px 5px;
   color : #9da1a5;
@@ -724,7 +727,7 @@ footer a:hover {
      /* insta section */
      .instaPosts {
        display: grid;
-       grid-template-columns: repeat(4, 1fr);
+       grid-template-columns: repeat(3, 1fr);
      }
 
 /* footer section */
@@ -734,19 +737,113 @@ footer a:hover {
 
   @media (max-width : 600px) {
 
+    .descriptionText {
+      font-size: 100%;
+      line-height:25px;
+    }
+    .footerTexts {
+      font-size: 100%;
+      line-height: 20px;
+    }
+    .homeBg {
+      min-height: 650px;
+    }
+    
+    #phoneMenu #phoneLogo {
+      text-align: left;
+  }
+
+    .mainButton {
+      padding : 12px 25px;
+    }
+
+    .introTextContainer {
+      top : 30%;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  .introTextContainer h1 {
+    font-size: 35px;
+  }
+  .introTextContainer p {
+    font-size: 110%;
+    line-height: 23px;
+    margin-top: 15px;
+}
+    .aboutMeContainer {
+      margin-top: 40px;
+    }
+    .aboutMeLeftSection {
+      margin-bottom: 20px;
+    }
+    .aboutRightImages {
+      display: block;
+      margin-bottom: 60px;
+    }
+    .aboutRightImages div {
+      margin : auto;
+      margin-bottom: 20px;
+    }
+    .authorImage {
+      height : 300px;
+    }
     .servicesContainer{
       display: block;
     }
     .vidFiles {
       display: block;
     }
+    .vidFiles div {
+      margin-bottom: 15px;
+    }
+    .entryHeading {
+      left : 5%;
+      right : 5%;
+      top : 15%;
+    }
+    .entryHeading h1 {
+      font-size: 27px;
+      margin : 10px;
+    }
+    .galleryBg img {
+      height : 300px;
+    }
+    .galleryContainer {
+      margin-bottom: 100px;
+    }
+    .blogContainer {
+      width: 90%;
+      margin-bottom: 100px;
+    }
+    .blogTextContainer h2 {
+      font-size: 20px;
+    }
+    .formContainer {
+      padding : 10px;
+      margin-bottom: 100px;
+    }
+    
     .addressContainer {
       display: block;
+      margin-top: 50px;
+    }
+    /* footer section */
+    footer * h1 {
+      font-size: 25px;
+    }
+    footer * a {
+      font-size: 16px;
+    }
+    footer {
+      grid-template-columns: 1fr;
+    }
+    .footerAbout {
+      width: 95%;
+    }
+    .footerTexts {
+      font-size: 20px;
     }
 
-    footer {
-      grid-template-columns: repeat(2, 1fr);
-    }
   }/*media end section*/
 
   }/*media end section*/

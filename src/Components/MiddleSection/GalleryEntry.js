@@ -10,10 +10,7 @@ class GalleryEntry extends Component {
           <p className='descriptionText'>
             see some of my latest and greatest works beyound
             the very coffee nature of my abilities and potencials
-            i present you.A small river named Duden flows by their place
-            and supplies it with the necessary regelialia.
-            It is a paradisematic country, in which roasted parts of
-            sentences fly into your mouth.Far far away, behind the word mountains.
+            i present you.A small river named Duden flows by their place.
           </p>
         </div>
         <img src={'/images/galleryEntryBg.jpg'} alt='Entry'></img>
