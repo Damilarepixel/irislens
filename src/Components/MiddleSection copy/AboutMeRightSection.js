@@ -4,13 +4,8 @@ import {timeOfDay} from '../../App'
 class AboutMeRightSection extends React.Component {
 
   render () {
-<<<<<<< Updated upstream
-    const image1 = `url(${'./images/aboutRight1.jpg'})`
-    const image2 = `url(${'./images/aboutRight2.jpg'})`
-=======
-    const image1 = `url(${'../images/aboutRight1.jpg'})`
-    const image2 = `url(${'../images/aboutRight2.jpg'})`
->>>>>>> Stashed changes
+    const image1 = `url(${'/images/aboutRight1.jpg'})`
+    const image2 = `url(${'/images/aboutRight2.jpg'})`
     let headerColor = ''
     let descriptionTextColor = ''
     if(timeOfDay() === 'morning') {

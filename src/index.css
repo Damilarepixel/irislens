@@ -196,7 +196,11 @@ a {
   position: relative;
   width: 100%;
   min-height: 800px;
+<<<<<<< Updated upstream
   background-image: url('./homeBg.jpg');
+=======
+  background-image: url('./Components/images/homeBg.jpg');
+>>>>>>> Stashed changes
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -360,7 +364,11 @@ a {
   grid-template-columns: 6fr 4fr;
 }
 .authorImage {
+<<<<<<< Updated upstream
   background-image: url('./authorImg.jpg');
+=======
+  background-image: url('./Components/images/authorImg.jpg');
+>>>>>>> Stashed changes
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

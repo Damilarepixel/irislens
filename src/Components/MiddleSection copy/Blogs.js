@@ -18,15 +18,9 @@ class Blogs extends Component {
     }
 
 const blogImages = {
-<<<<<<< Updated upstream
   img1 : '../../images/gallery/1.jpg',
   img2 : '../../images/gallery/8.jpg',
   img3 : '../../images/gallery/19.jpg'
-=======
-  img1 : './gallery/1.jpg',
-  img2 : './gallery/8.jpg',
-  img3 : './gallery/19.jpg'
->>>>>>> Stashed changes
 }
     return (
       <div>
@@ -34,11 +28,7 @@ const blogImages = {
 
         <div className='blogContainer container'>
           <div style={{backgroundColor : blogBgColor}} className='blogs'>
-<<<<<<< Updated upstream
             <div style={{backgroundImage : `url(${'/gallery/1.jpg'})`}} className='blogsBg'></div>
-=======
-            <div style={{backgroundImage : `url(${'./gallery/1.jpg'})`}} className='blogsBg'></div>
->>>>>>> Stashed changes
             <div className='blogTextContainer'>
             <h2><a style={{color : blogTitleColor}} href='#'>Why Photography Is Good For Business</a></h2>
             <div className='timeAuthorTextContainer'>
@@ -53,11 +43,7 @@ const blogImages = {
             </div>
           </div>
           <div style={{backgroundColor : blogBgColor}} className='blogs'>
-<<<<<<< Updated upstream
             <div style={{backgroundImage : `url(${'/gallery/8.jpg'})`}} className='blogsBg'></div>
-=======
-            <div style={{backgroundImage : `url(${'./gallery/8.jpg'})`}} className='blogsBg'></div>
->>>>>>> Stashed changes
             <div className='blogTextContainer'>
             <h2><a style={{color : blogTitleColor}} href='#'>How To Die Young Smoking Weed And Coke</a></h2>
             <div className='timeAuthorTextContainer'>
@@ -72,11 +58,7 @@ const blogImages = {
             </div>
           </div>
           <div style={{backgroundColor : blogBgColor}} className='blogs'>
-<<<<<<< Updated upstream
             <div style={{backgroundImage : `url(${'/gallery/19.jpg'})`}} className='blogsBg'></div>
-=======
-            <div style={{backgroundImage : `url(${'./gallery/19.jpg'})`}} className='blogsBg'></div>
->>>>>>> Stashed changes
             <div className='blogTextContainer'>
             <h2><a style={{color : blogTitleColor}} href='#'>Why You Need To Stop Fucking Your Boss</a></h2>
             <div className='timeAuthorTextContainer'>
