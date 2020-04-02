@@ -1,4 +1,4 @@
 [build]
-base = "my-app/"
-publish = "my-app/build/"
-command = "yarn build"
+  command = "npm run build"
+  publish="path-to-react-app/build"
+  base = "path-to-react-app"
