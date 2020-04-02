@@ -17,7 +17,7 @@ class MySkills extends Component {
 
     return (
       <div className="container">
-        <div className='skillSectionDivider'>
+        <div className='animate skillSectionDivider'>
           <div className="mySkills">
             <div className="skillHeader">
               <h1 style={{color : skillColor}}>My <span className="highlight">Skills</span></h1>
@@ -49,7 +49,7 @@ class MySkills extends Component {
             </div>
           </div>
 
-          <div className='authorImage'></div>
+          <div className='animate authorImage'></div>
         </div>
       </div>
     )

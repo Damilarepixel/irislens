@@ -61,6 +61,32 @@ a {
   color : #fab95b;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
+/*===========slide in cool animation===============*/
+.come-in {
+  visibility: visible;
+  transform: translateY(200px);
+  animation: come-in 3s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 2s;
+}
+.already-visible {
+  transform: translateY(0px) !important;
+  animation: none !important;
+}
+
+@keyframes come-in {
+  from {opacity: 0;}
+  to { 
+    transform: translateY(0); 
+    opacity: 1;
+  }
+}
+/*=================================*/
 
 
 

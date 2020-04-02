@@ -31,8 +31,8 @@ class AboutMeRightSection extends React.Component {
           <small>EVERY PROJECT WITH PASSION</small>
         </div>
         <div className='aboutRightImages'>
-          <div style={{backgroundImage : image1}} className='aboutRightBg1'></div>
-          <div style={{backgroundImage : image2}} className='aboutRightBg2'></div>
+          <div style={{backgroundImage : image1}} className='animate aboutRightBg1'></div>
+          <div style={{backgroundImage : image2}} className='animate aboutRightBg2'></div>
         </div>
       </div>
     )

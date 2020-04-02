@@ -21,7 +21,7 @@ class Contact extends Component {
       <div id='contactAutoActiveRespose' className='container'>
         <h2 id='contactId' style={{color : headerColor}}>Wanna Work With Me ?</h2>
         <div className='formContainer formGroup'>
-          <form className="contactForm" action="mailto:irislensphotography­@gmail.com" method="post">
+          <form className="animate contactForm" action="mailto:irislensphotography­@gmail.com" method="post">
             <div className='block'>
               <input required style={{backgroundColor : background, color : textColor}} placeholder='First Name' type='text' name='firstName'></input>
             <input required style={{backgroundColor : background, color : textColor}} placeholder='Last Name' type='text' name='lastName'></input>
@@ -35,7 +35,7 @@ class Contact extends Component {
             <button className='mainButton'>Send message</button>
           </form>
           <div className='addressContainer'>
-            <div style={{backgroundColor : background}} className='addressBg'>
+            <div style={{backgroundColor : background}} className='animate addressBg'>
               <a title='Locate Me' href=''>
                 <h3 style={{color : textColor}}><span className='icon-address icon'></span>Address</h3>
                 <p style={{color : descriptionText}}>
@@ -43,7 +43,7 @@ class Contact extends Component {
                 </p>
               </a>
             </div>
-            <div style={{backgroundColor : background}} className='addressBg'>
+            <div style={{backgroundColor : background}} className='animate addressBg'>
               <a title='Call Me' href='tel:+16823757862'>
                 <h3 style={{color : textColor}}><span className='icon-phone icon'></span>Phone</h3>
                 <p style={{color : descriptionText}}>
@@ -51,7 +51,7 @@ class Contact extends Component {
                 </p>
               </a>
             </div>
-            <div style={{backgroundColor : background}} className='addressBg'>
+            <div style={{backgroundColor : background}} className='animate addressBg'>
               <a title='Mail Me' href='mailto:irislensphotography­@gmail.com'>
                 <h3 style={{color : textColor}}><span className='icon-mail icon'></span>Email Address</h3>
                 <p style={{color : descriptionText}}>

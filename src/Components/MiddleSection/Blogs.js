@@ -27,7 +27,8 @@ const blogImages = {
         <div id='blogsAutoActiveRespose'><center><h1 style={{color : blogTitleColor}} id='blogId'>My Blogs</h1></center></div>
 
         <div className='blogContainer container'>
-          <div style={{backgroundColor : blogBgColor}} className='blogs'>
+
+          <div style={{backgroundColor : blogBgColor}} className='animate blogs'>
             <div style={{backgroundImage : `url(${'/gallery/1.jpg'})`}} className='blogsBg'></div>
             <div className='blogTextContainer'>
             <h2><a style={{color : blogTitleColor}} href='#'>Why Photography Is Good For Business</a></h2>
@@ -42,7 +43,8 @@ const blogImages = {
             <p><a className='readMore' href='#'>Read More</a></p>
             </div>
           </div>
-          <div style={{backgroundColor : blogBgColor}} className='blogs'>
+
+          <div style={{backgroundColor : blogBgColor}} className='animate blogs'>
             <div style={{backgroundImage : `url(${'/gallery/8.jpg'})`}} className='blogsBg'></div>
             <div className='blogTextContainer'>
             <h2><a style={{color : blogTitleColor}} href='#'>How To Die Young Smoking Weed And Coke</a></h2>
@@ -57,7 +59,8 @@ const blogImages = {
             <p><a className='readMore' href='#'>Read More</a></p>
             </div>
           </div>
-          <div style={{backgroundColor : blogBgColor}} className='blogs'>
+
+          <div style={{backgroundColor : blogBgColor}} className='animate blogs'>
             <div style={{backgroundImage : `url(${'/gallery/19.jpg'})`}} className='blogsBg'></div>
             <div className='blogTextContainer'>
             <h2><a style={{color : blogTitleColor}} href='#'>Why You Need To Stop Fucking Your Boss</a></h2>
@@ -72,6 +75,7 @@ const blogImages = {
             <p><a className='readMore' href='#'>Read More</a></p>
             </div>
           </div>
+
         </div>
       </div>
     )
