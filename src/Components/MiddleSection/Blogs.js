@@ -60,7 +60,7 @@ const blogImages = {
           <div style={{backgroundColor : blogBgColor}} className='blogs'>
             <div style={{backgroundImage : `url(${'/gallery/19.jpg'})`}} className='blogsBg'></div>
             <div className='blogTextContainer'>
-            <h2><a style={{color : blogTitleColor}} href='#'>Why You Need To Stop Fucking Your Boss</a></h2>
+            <h2><a style={{color : blogTitleColor}} href='#'>The Mastry Of Light Effects And Shadows</a></h2>
             <div className='timeAuthorTextContainer'>
               <small><span className='icon-calendar3 icon'></span>May 16, 2020</small>
               <small><span className='icon-profile-male icon'></span>Author - Sweet Coffee</small>
