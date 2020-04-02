@@ -3,11 +3,44 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import {App} from './App';
 import * as serviceWorker from './serviceWorker';
+import animation from './animations'
 
 var checker = 0;
 
 
 window.onload = ()=> {
+
+  var isInViewport = function (elem) {
+    // this is the code that adds the cool animation to the page
+    var bounding = elem.getBoundingClientRect();
+    return (
+        bounding.top >= 0 &&
+        bounding.left >= 0 
+        // &&
+        // bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        // bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+// selectior for our animatable elements
+var animElements  = document.querySelectorAll('.animate');
+
+/* we call this method first just incase someone reloads our page in the middle
+of the site in wihich case the element is already visible, so we don't wanna animate 
+again when they so as much scroll slightly to the bottom
+remove this code and run the site emmanuel and you'll remember why you had to call this method first*/
+
+animElements.forEach(element => {
+  // if element is visible
+        if(isInViewport(element) && window.pageYOffset > checker){
+  // if we're scrolling down, do cool stuff
+  element.classList.add('already-visible')
+        }
+        else {
+          // do nothing nigga ! :)
+        }
+  
+      })
+
 
   const phoneMenu = document.getElementById('phoneMenu')
   const phoneLogo = document.getElementById('phoneLogo')
@@ -78,6 +111,19 @@ window.addEventListener('resize', ()=> {
   }
 
   window.addEventListener('scroll', event => {
+   
+    animElements.forEach(element => {
+// if element is visible
+      if(isInViewport(element) && window.pageYOffset > checker){
+// if we're scrolling down, do cool stuff
+element.classList.add('come-in')
+      }
+      else if(window.pageYOffset < checker && isInViewport(element)){
+        //we're scrolling up and page is reloaded in the middle and element is already visible 
+        element.classList.add('already-visible')
+      }
+
+    })
 
     const offset = window.pageYOffset
     if(window.pageYOffset > 800) {
