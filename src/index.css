@@ -546,7 +546,7 @@ input:focus, textarea:focus {
   grid-gap: 40px;
 }
 .formContainer input[type='text'], input[type='email'] {
-  height: 35px;
+  height: 45px;
 }
 textarea {
   min-height: 250px;

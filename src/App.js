@@ -4,7 +4,6 @@ import TopSectionContainer from './Components/TopSection/TopSectionContainer'
 import MiddleSectionContainer from './Components/MiddleSection/MiddleSectionContainer'
 import BaseSection from './Components/BaseSection/BaseSection'
 
-
 function timeOfDay () {
   if(new Date().getHours() <= 11) {
     // day mode (Morning)

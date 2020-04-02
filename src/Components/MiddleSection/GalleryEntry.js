@@ -13,7 +13,7 @@ class GalleryEntry extends Component {
             i present you.A small river named Duden flows by their place.
           </p>
         </div>
-        <img src={'../../images/galleryEntryBg.jpg'} alt='Entry'></img>
+        <img src={'/images/galleryEntryBg.jpg'} alt='Entry'></img>
       </div>
     )
   }

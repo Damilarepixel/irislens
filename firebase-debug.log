@@ -1,0 +1,29 @@
+[debug] [2020-04-01T15:21:27.687Z] ----------------------------------------------------------------------
+[debug] [2020-04-01T15:21:27.690Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\oriol\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-04-01T15:21:27.690Z] CLI Version:   8.0.0
+[debug] [2020-04-01T15:21:27.691Z] Platform:      win32
+[debug] [2020-04-01T15:21:27.691Z] Node Version:  v12.16.1
+[debug] [2020-04-01T15:21:27.694Z] Time:          Wed Apr 01 2020 16:21:27 GMT+0100 (West Africa Standard Time)
+[debug] [2020-04-01T15:21:27.694Z] ----------------------------------------------------------------------
+[debug] [2020-04-01T15:21:27.694Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+[debug] [2020-04-01T15:21:33.115Z] Error: EBUSY: resource busy or locked, rename 'C:\Users\oriol\.config\configstore\firebase-tools.json.3969099141' -> 'C:\Users\oriol\.config\configstore\firebase-tools.json'
+    at Object.renameSync (fs.js:660:3)
+    at Function.writeFileSync [as sync] (C:\Users\oriol\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:244:8)
+    at Configstore.set all [as all] (C:\Users\oriol\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:61:20)
+    at Configstore.set (C:\Users\oriol\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Request._callback (C:\Users\oriol\AppData\Roaming\npm\node_modules\firebase-tools\lib\fetchMOTD.js:39:25)
+    at Request.self.callback (C:\Users\oriol\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:311:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (C:\Users\oriol\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:311:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (C:\Users\oriol\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:417:28)
+    at IncomingMessage.emit (events.js:323:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1204:12)
+[error] 
+[error] Error: An unexpected error has occurred.
